@@ -1,5 +1,5 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
-@prefix schema: <https://schema.org/> .
+@prefix schema: <http://schema.org/> .
 @prefix cdifd: <https://cdif.org/validation/0.1/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dcterms: <http://purl.org/dc/terms/>.
@@ -749,4 +749,5 @@ cdifd:roleNameProperty
     sh:message "a Role must provide a roleName, ideally the value is a term from a controlled vocabulary or an IRI for a role concept." 
     .
 	
+
 
